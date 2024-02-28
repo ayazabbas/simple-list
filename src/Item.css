@@ -1,0 +1,19 @@
+/* Item.css */
+.itemRow {
+    display: flex;
+    justify-content: space-between; /* Aligns content to each side */
+    align-items: center;
+    padding: 10px;
+    width: 100%; /* Ensures the row takes full width of its container */
+  }
+  
+  .itemText, .itemInput {
+    /* This ensures the text/input part takes up only as much space as needed, without pushing the icons unnecessarily. */
+    margin-right: 10px; /* Optional: Adds a little space before the icons */
+  }
+  
+  .itemActions {
+    display: flex;
+    gap: 20px; /* Increase the gap as needed */    
+  }
+  

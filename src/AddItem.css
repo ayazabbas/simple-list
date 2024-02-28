@@ -1,0 +1,25 @@
+/* AddItem.css */
+.addItemForm {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .addItemInput {
+    flex-grow: 1;
+    padding: 10px;
+    border: 2px solid #c89666;
+    border-radius: 5px;
+  }
+  
+  .addItemButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #2d545e;
+    font-size: 24px; /* Adjust the size of the plus icon */
+  }
+  
+  .addItemButton:hover {
+    color: #c89666;
+  }
+  
